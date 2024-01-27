@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;500&display=swap");
+#signup-page {
+  padding-right: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#signup-page .sign-up-form h1 {
+  margin-bottom: 24px;
+  color: var(--Text2, #000);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+}
+#signup-page .sign-up-form h2 {
+  margin-bottom: 48px;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#signup-page .sign-up-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+#signup-page .sign-up-form form input {
+  width: 370px;
+  padding: 8px 0;
+  border-bottom: 1px solid #000;
+}
+#signup-page .sign-up-form form input placeholder {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#signup-page .sign-up-form .create-btn {
+  padding: 16px 122px;
+  margin-top: 40px;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+}
+#signup-page .sign-up-form .create-btn a {
+  color: var(--Text, #fafafa);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#signup-page .sign-up-form .google-signup {
+  padding: 16px 86px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: none;
+}
+#signup-page .sign-up-form .google-signup a {
+  margin-left: 16px;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#signup-page .sign-up-form .login-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signup-page .sign-up-form .login-link p {
+  margin-right: 16px;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#signup-page .sign-up-form .login-link a {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=index.css.map */

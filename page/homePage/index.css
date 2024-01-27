@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.container nav {
+  width: 100%;
+  padding: 16px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container nav ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.container nav ul li:first-child a {
+  color: var(--Text-Color-Accent, #db6b97);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.container nav ul li a {
+  color: var(--Text-Color-Primary, #2d2d2d);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container nav .right-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+}
+.container nav .right-box .login-register-box {
+  display: flex;
+  align-items: center;
+}
+.container nav .right-box .login-register-box a {
+  margin-right: 8px;
+  margin-left: 8px;
+  color: var(--Text-Color-Accent, #db6b97);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.container nav .right-box .basket-box {
+  display: flex;
+}
+.container nav .right-box .basket-box p {
+  margin-left: 8px;
+  color: var(--Text-Color-Accent, #db6b97);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.container nav .right-box .favorite-box {
+  display: flex;
+}
+.container nav .right-box .favorite-box p {
+  margin-left: 8px;
+  color: var(--Text-Color-Accent, #db6b97);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.container main {
+  width: 100%;
+  padding: 64px 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container main .shop-box {
+  position: relative;
+}
+.container main .shop-box .title-box {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+.container main .shop-box .title-box h1 {
+  color: var(--Text-Color-Accent, #db6b97);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.container main .shop-box .title-box button {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  background: none;
+}
+.container main .shop-box .title-box button a {
+  margin-right: 16px;
+  color: var(--Text-Color-Primary, #2d2d2d);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.container main .img-box .sweaters-demins-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}/*# sourceMappingURL=index.css.map */
