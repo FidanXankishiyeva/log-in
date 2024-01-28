@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;500&display=swap");
 #signup-page {
+  min-height: 100vh;
   padding-right: 135px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#signup-page .phone-img {
+  min-height: 100vh;
 }
 #signup-page .sign-up-form h1 {
   margin-bottom: 24px;
@@ -43,13 +47,11 @@
   font-weight: 400;
   line-height: 24px;
 }
-#signup-page .sign-up-form .create-btn {
+#signup-page .sign-up-form form .create-btn {
   padding: 16px 122px;
   margin-top: 40px;
   border-radius: 4px;
   background: var(--Button2, #db4444);
-}
-#signup-page .sign-up-form .create-btn a {
   color: var(--Text, #fafafa);
   font-family: Poppins;
   font-size: 16px;
@@ -57,7 +59,7 @@
   font-weight: 500;
   line-height: 24px;
 }
-#signup-page .sign-up-form .google-signup {
+#signup-page .sign-up-form form .google-signup {
   padding: 16px 86px;
   margin-top: 16px;
   margin-bottom: 32px;
@@ -67,7 +69,7 @@
   border: 1px solid rgba(0, 0, 0, 0.4);
   background: none;
 }
-#signup-page .sign-up-form .google-signup a {
+#signup-page .sign-up-form form .google-signup a {
   margin-left: 16px;
   color: var(--Text2, #000);
   font-family: Poppins;
@@ -76,12 +78,12 @@
   font-weight: 400;
   line-height: 24px;
 }
-#signup-page .sign-up-form .login-link {
+#signup-page .sign-up-form form .login-link {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#signup-page .sign-up-form .login-link p {
+#signup-page .sign-up-form form .login-link p {
   margin-right: 16px;
   color: var(--Text2, #000);
   font-family: Poppins;
@@ -90,7 +92,7 @@
   font-weight: 400;
   line-height: 24px;
 }
-#signup-page .sign-up-form .login-link a {
+#signup-page .sign-up-form form .login-link a {
   color: var(--Text2, #000);
   font-family: Poppins;
   font-size: 16px;

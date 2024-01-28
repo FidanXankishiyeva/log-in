@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.container {
+  width: 100%;
+  padding: 64px 56px;
+}
+.container .text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.container .text h1 {
+  color: var(--Text-Color-Primary, #2d2d2d);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.container .text h2 {
+  color: var(--Text-Color-Accent, #db6b97);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.container .shop-box ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 40px;
+}
+.container .shop-box ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.container .shop-box ul li .clothes-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+.container .shop-box ul li .clothes-box h3 {
+  color: var(--Text-Color-Primary, #2d2d2d);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.container .shop-box ul li .clothes-box p {
+  color: var(--Text-Color-Tertiary, #737373);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container .shop-box ul li h4 {
+  color: var(--Text-Color-Accent, #db6b97);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.container .shop-box ul li button {
+  padding: 8px 80px;
+  border-radius: 8px;
+  background: var(--Text-Color-Primary, #2d2d2d);
+}
+.container .shop-box ul li button a {
+  color: var(--Text-Color-Secondary, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}/*# sourceMappingURL=index.css.map */

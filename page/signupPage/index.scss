@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;500&display=swap");
 #signup-page {
+  min-height: 100vh;
   padding-right: 135px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  .phone-img{
+min-height: 100vh;
+  }
   .sign-up-form {
     h1 {
       margin-bottom: 24px;
@@ -44,21 +49,19 @@
           line-height: 24px;
         }
       }
-    }
 
-    .create-btn {
+      .create-btn {
         padding: 16px 122px;
         margin-top: 40px;
         border-radius: 4px;
         background: var(--Button2, #db4444);
-        a {
           color: var(--Text, #fafafa);
           font-family: Poppins;
           font-size: 16px;
           font-style: normal;
           font-weight: 500;
           line-height: 24px;
-        }
+       
       }
 
       .google-signup {
@@ -104,5 +107,8 @@ line-height: 24px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.40);
         }
       }
+    }
+
+ 
   }
 }
