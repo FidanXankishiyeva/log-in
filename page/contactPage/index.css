@@ -36,14 +36,6 @@
   border: 1px solid var(--Neutrals-Rule, #d2d2d2);
   background: var(--Neutrals-Text-field-bg, #f6f6f6);
 }
-.container .form form input::-moz-placeholder {
-  color: var(--Text-Color-Tertiary, #737373);
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
 .container .form form input::placeholder {
   color: var(--Text-Color-Tertiary, #737373);
   font-family: Poppins;
@@ -61,14 +53,6 @@
   outline: none;
   border: 1px solid var(--Neutrals-Rule, #d2d2d2);
   background: var(--Neutrals-Text-field-bg, #f6f6f6);
-}
-.container .form form textarea::-moz-placeholder {
-  color: var(--Text-Color-Tertiary, #737373);
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
 }
 .container .form form textarea::placeholder {
   color: var(--Text-Color-Tertiary, #737373);
@@ -122,4 +106,4 @@
   display: flex;
   align-items: center;
   gap: 48px;
-}/*# sourceMappingURL=index.css.map */
+}

@@ -27,7 +27,7 @@ function hidePass(){
 
 
 // input value action 
-form.addEventListener('submit', createBtn)
+btn.addEventListener('click', createBtn)
 function createBtn(e){
     e.preventDefault()
 console.log(emailInput.value);

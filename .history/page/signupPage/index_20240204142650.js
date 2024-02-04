@@ -3,7 +3,7 @@ let showIcon=document.querySelector('.bi-eye')
 let passwordInput=document.querySelector('.password-input')
 let btn=document.querySelector('.create-btn')
 let emailInput =document.querySelector('.email-input')
-let form =document.querySelector('form')
+let form =document.querySelector
 
 
 
@@ -27,7 +27,7 @@ function hidePass(){
 
 
 // input value action 
-form.addEventListener('submit', createBtn)
+btn.addEventListener('click', createBtn)
 function createBtn(e){
     e.preventDefault()
 console.log(emailInput.value);

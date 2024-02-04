@@ -1,9 +1,8 @@
 let hideIcon=document.querySelector('.bi-eye-slash')
 let showIcon=document.querySelector('.bi-eye')
-let passwordInput=document.querySelector('.password-input')
+let input=document.querySelector('.password-input')
 let btn=document.querySelector('.create-btn')
-let emailInput =document.querySelector('.email-input')
-let form =document.querySelector('form')
+let emailInput =d
 
 
 
@@ -11,7 +10,7 @@ let form =document.querySelector('form')
 // show password action 
 hideIcon.addEventListener('click', showPass)
 function showPass(){
-    passwordInput.type= 'text'
+    input.type= 'text'
     hideIcon.style.display= 'none'
     showIcon.style.display= 'block'
 }
@@ -20,17 +19,15 @@ function showPass(){
 
 showIcon.addEventListener('click', hidePass)
 function hidePass(){
-    passwordInput.type= 'password'
+    input.type= 'password'
     hideIcon.style.display= 'block'
     showIcon.style.display= 'none'
 }
 
 
 // input value action 
-form.addEventListener('submit', createBtn)
+btn.addEventListener('click', createBtn)
 function createBtn(e){
+    console.log(inputs.value);
     e.preventDefault()
-console.log(emailInput.value);
-console.log(passwordInput.value);
-
 }

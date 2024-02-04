@@ -49,19 +49,12 @@
 }
 #signup-page .sign-up-form form .password {
   display: flex;
-  position: relative;
 }
 #signup-page .sign-up-form form .password .bi-eye {
   display: none;
 }
 #signup-page .sign-up-form form .password i {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-#signup-page .sign-up-form form .password input {
-  padding-right: 20px;
+  position: z;
 }
 #signup-page .sign-up-form form .create-btn {
   padding: 16px 122px;
