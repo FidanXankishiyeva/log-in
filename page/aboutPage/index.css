@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.container {
+  width: 100%;
+  padding-left: 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .text-container h1 {
+  margin-bottom: 40px;
+  color: var(--Text-Color-Primary, #2d2d2d);
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+.container .text-container .about-p {
+  width: 601px;
+  color: var(--Text-Color-Tertiary, #737373);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container .text-container .statistics-box {
+  margin-top: 96px;
+}
+.container .text-container .statistics-box ul {
+  display: flex;
+}
+.container .text-container .statistics-box ul li {
+  margin-right: 96px;
+}
+.container .text-container .statistics-box ul li h2 {
+  color: var(--Text-Color-Primary, #2d2d2d);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+.container .text-container .statistics-box ul li p {
+  color: var(--Text-Color-Accent, #db6b97);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}/*# sourceMappingURL=index.css.map */

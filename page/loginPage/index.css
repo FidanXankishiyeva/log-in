@@ -39,6 +39,12 @@
   padding-bottom: 8px;
   border-bottom: 1px solid #000;
 }
+#login-page .login-form form .password {
+  display: flex;
+}
+#login-page .login-form form .bi-eye {
+  display: none;
+}
 #login-page .login-form form .button-box {
   margin-top: 40px;
 }

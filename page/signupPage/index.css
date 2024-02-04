@@ -39,13 +39,27 @@
   padding: 8px 0;
   border-bottom: 1px solid #000;
 }
-#signup-page .sign-up-form form input placeholder {
+#signup-page .sign-up-form form input::-moz-placeholder {
   color: var(--Text2, #000);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+#signup-page .sign-up-form form input::placeholder {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#signup-page .sign-up-form form .password {
+  display: flex;
+}
+#signup-page .sign-up-form form .password .bi-eye {
+  display: none;
 }
 #signup-page .sign-up-form form .create-btn {
   padding: 16px 122px;
