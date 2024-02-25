@@ -34,3 +34,4 @@ console.log(emailInput.value);
 console.log(passwordInput.value);
 
 }
+

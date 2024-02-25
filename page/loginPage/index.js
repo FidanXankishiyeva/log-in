@@ -1,11 +1,11 @@
 let hideIcon=document.querySelector('.bi-eye-slash')
 let showIcon=document.querySelector('.bi-eye')
-let input=document.querySelector('.password-input')
+let passwordInput=document.querySelector('.password-input')
 
 // show password action 
 hideIcon.addEventListener('click', showPass)
 function showPass(){
-    input.type= 'text'
+    passwordInput.type= 'text'
     hideIcon.style.display= 'none'
     showIcon.style.display= 'block'
 }
@@ -14,7 +14,28 @@ function showPass(){
 
 showIcon.addEventListener('click', hidePass)
 function hidePass(){
-    input.type= 'password'
+    passwordInput.type= 'password'
     hideIcon.style.display= 'block'
     showIcon.style.display= 'none'
+}
+
+
+
+// userin elave olunmasi 
+let form= document.querySelector('form')
+let emailInput= document.querySelector('.email-input')
+// let users= []
+// localStorage.setItem('myusers', JSON.stringify(users))
+form.addEventListener('submit',addUser)
+function addUser(e){
+    e.preventDefault()
+    let user= {
+        email: emailInput.value,
+        password:passwordInput.value
+    }
+    let userArray= localStorage.getItem('myusers')
+    let userArray2= JSON.parse(userArray)
+    userArray2.push(user)
+    localStorage.setItem('myusers', JSON.stringify(userArray2))
+    form.reset()
 }
