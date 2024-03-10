@@ -45,6 +45,10 @@
 #login-page .login-form form .bi-eye {
   display: none;
 }
+#login-page .login-form form p {
+  color: red;
+  display: none;
+}
 #login-page .login-form form .button-box {
   margin-top: 40px;
 }
@@ -70,4 +74,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-}
+}/*# sourceMappingURL=index.css.map */

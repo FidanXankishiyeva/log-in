@@ -57,12 +57,14 @@
 }
 #signup-page .sign-up-form form .password {
   display: flex;
+  position: relative;
 }
 #signup-page .sign-up-form form .password .bi-eye {
   display: none;
 }
 #signup-page .sign-up-form form .password i {
-  position: z;
+  position: absolute;
+  right: 0;
 }
 #signup-page .sign-up-form form .create-btn {
   padding: 16px 122px;
@@ -117,4 +119,4 @@
   font-weight: 500;
   line-height: 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-}/*# sourceMappingURL=index_20240204141819.css.map */
+}/*# sourceMappingURL=index_20240204142006.css.map */
